@@ -500,7 +500,7 @@ tests.test_seq2seq_model(seq2seq_model)
 # In[14]:
 
 # Number of Epochs
-epochs = 10
+epochs = 6
 # Batch Size
 batch_size = 256
 # RNN Size
@@ -508,12 +508,12 @@ rnn_size = 512
 # Number of Layers
 num_layers = 2
 # Embedding Size
-encoding_embedding_size = 10
-decoding_embedding_size = 10
+encoding_embedding_size = 256
+decoding_embedding_size = 256
 # Learning Rate
 learning_rate = 0.001
 # Dropout Keep Probability
-keep_probability = 0.8
+keep_probability = 0.7
 
 
 # ### 构建图表
@@ -686,7 +686,7 @@ tests.test_sentence_to_seq(sentence_to_seq)
 # 
 # 将 `translate_sentence` 从英语翻译成法语。
 
-# In[20]:
+# In[21]:
 
 translate_sentence = 'he saw a old yellow truck .'
 
